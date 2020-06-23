@@ -1,9 +1,10 @@
 
 /* stilizzazione header */
 header{
-  height: 70px;
+  height: 50px;
   background-color: white!important;
-  z-index: 99;
+  width: 100%;
+
 }
 .logo img{
   height: 29px;
@@ -49,7 +50,6 @@ header{
 }
 
 .sezione{
-  height: 500px;
   background-color: rgb(2, 83, 255)!important;
 }
 
@@ -66,9 +66,49 @@ header{
 .form-horizontal{
   margin-top: 80px;
   margin-left: 20px;
+  padding-bottom: 50px;
 }
 
 
 #Email{
   margin-top: 15px;
+}
+
+.form-group button{
+  background: white;
+  border: none;
+  line-height: 100%;
+  font-family: 'Sailec-Bold';
+  color: #006aff;
+  padding: 17px;
+  cursor: pointer;
+}
+
+.sezione2{
+  background-color: #f3f5f9;
+}
+
+.container h4{
+  text-align: center;
+  margin-top: 40px;
+  font-size: 25px;
+}
+
+.logos{
+  height:80px;
+  margin-top: 30px;
+  padding-bottom: 40px;
+}
+
+.logo2{
+  margin-left: 50%;
+  transform: translatex(-50%);
+}
+
+.solutions{
+  text-align: center;
+  font-size: 20px;
+  padding-top: 25px;
+  cursor: pointer;
+  color:#006aff;
 }
