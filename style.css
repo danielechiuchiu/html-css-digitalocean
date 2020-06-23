@@ -1,4 +1,10 @@
 
+/* stilizzazione header */
+header{
+  height: 70px;
+  background-color: white!important;
+  z-index: 99;
+}
 .logo img{
   height: 29px;
   width: 172px;
@@ -40,4 +46,29 @@
 .signup{
   margin-top: 5px;
 }
+}
+
+.sezione{
+  height: 500px;
+  background-color: rgb(2, 83, 255)!important;
+}
+
+.text-left1{
+  color: white;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.text-left1 h1{
+  font-weight: bolder;
+}
+
+.form-horizontal{
+  margin-top: 80px;
+  margin-left: 20px;
+}
+
+
+#Email{
+  margin-top: 15px;
 }
