@@ -47,7 +47,8 @@ header{
   display:none;
 }
 .signup{
-  margin-top: 5px;
+   text-align: right;
+   margin-top: -22px;
 }
 }
 
@@ -67,21 +68,32 @@ header{
 
 .form-horizontal{
   margin-top: 80px;
-  margin-left: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
   padding-bottom: 50px;
+  background-color: white;
+  border-radius: 10px;
+}
+.form-control{
+  margin-top:15px;
+}
+#Email{
+  margin-top: 30px;
 }
 
-
-#Email{
-  margin-top: 15px;
+.h5-title{
+  text-align: center;
+  font-size: 18px;
+  padding-top: 15px;
 }
 
 .form-group button{
-  background: white;
+  background: #006aff!important;
   border: none;
   line-height: 100%;
   font-family: 'Sailec-Bold';
-  color: #006aff;
+  color: white;
   padding: 17px;
   cursor: pointer;
 }
@@ -133,4 +145,59 @@ header{
   text-align: center;
   font-size: 18px;
   padding-top: 10px;
+  color: #5b6987;
+}
+
+
+.lista-laterale {
+    margin-top:70px;
+}
+
+.lista-laterale ul {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-laterale li {
+    font-size: 20px;
+    padding: 20px 10px;
+    border-left: 2px solid lightgrey;
+}
+
+.lista-laterale li:hover {
+    border-left: 2px solid #0069ff;
+}
+
+.riquadro {
+    text-align: left;
+}
+
+.riquadro1 {
+    margin-bottom: 75px;
+}
+
+.riquadro h3 {
+    text-transform: capitalize;
+    font-size: 1.5;
+}
+
+.riquadro p {
+    color: #5b6987;
+    font-size: 1.2em;
+}
+
+@media screen and (max-width: 800px) {
+.lista-laterale li{
+  display: inline-block!important;
+  text-align: center !important;
+  border-left:none!important;
+  margin-left: 35px;
+}
+.lista-laterale li:hover {
+    border-bottom: 2px solid #0069ff!important;
+}
+
+.riquadro{
+  text-align: center;
+}
 }
