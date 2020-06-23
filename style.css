@@ -4,6 +4,8 @@ header{
   height: 50px;
   background-color: white!important;
   width: 100%;
+  position: fixed;
+  z-index: 99;
 
 }
 .logo img{
@@ -92,6 +94,7 @@ header{
   text-align: center;
   margin-top: 40px;
   font-size: 25px;
+  color:hsl(221,93%,16%);
 }
 
 .logos{
@@ -105,10 +108,29 @@ header{
   transform: translatex(-50%);
 }
 
+.section3{
+  height: 700px;
+}
+
 .solutions{
   text-align: center;
   font-size: 20px;
   padding-top: 25px;
   cursor: pointer;
   color:#006aff;
+  padding-bottom: 50px;
+}
+
+.sottotitolo{
+  font-weight: bolder;
+  color:hsl(221,93%,16%);
+  text-align: center;
+  padding-top: 40px;
+  font-size: 50px;
+}
+
+.sottotitolo2{
+  text-align: center;
+  font-size: 18px;
+  padding-top: 10px;
 }
