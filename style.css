@@ -1,5 +1,6 @@
 
 
+
 /* stilizzazione header */
 header{
   height: 50px;
@@ -244,7 +245,8 @@ header{
 
 .space{
  padding-top: 40px;
- font-family: 'montserrat'
+ font-family: 'montserrat';
+ padding-bottom:50px;
 }
 
 .space h5{
@@ -255,4 +257,42 @@ header{
 .sezione5{
   text-align: center;
 }
+}
+
+.sezione6{
+  background-color: #031b4e;
+}
+
+.titolosez6{
+  color: white;
+  font-family: "montserrat";
+  text-align:center;
+}
+
+.titolosez6 h2{
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+.titolosez6 p{
+  padding-top: 10px;
+  font-size: 17px;
+}
+
+.regus{
+  height:25px;
+  border-bottom: solid 1px white;
+  display: inline-block;
+  color:white
+}
+
+.initial h6{
+  margin: auto;
+  line-height: 100%;
+}
+
+.initial .citta{
+  margin: auto;
+  margin-left:20px;
+  line-height:30px;
 }
