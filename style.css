@@ -1,4 +1,5 @@
 
+
 /* stilizzazione header */
 header{
   height: 50px;
@@ -86,6 +87,9 @@ header{
   text-align: center;
   font-size: 18px;
   padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #f3f5f9;
+  border-radius: 10px 10px 0px 0px;
 }
 
 .form-group button{
@@ -120,9 +124,6 @@ header{
   transform: translatex(-50%);
 }
 
-.section3{
-  height: 700px;
-}
 
 .solutions{
   text-align: center;
@@ -192,12 +193,66 @@ header{
   text-align: center !important;
   border-left:none!important;
   margin-left: 35px;
+  text-decoration: none!important;
 }
 .lista-laterale li:hover {
     border-bottom: 2px solid #0069ff!important;
 }
 
 .riquadro{
+  text-align: center;
+}
+}
+
+.sezione4{
+  background-color: #f3f5f9;
+
+}
+
+.designed{
+  text-align: center;
+  padding-top: 15px;
+}
+.designed p{
+  font-family: 'montserrat';
+  font-size: 15px;
+  line-height: 150%;
+  padding-top: 10px;
+}
+
+.designed .img5{
+  width: 50%;
+  height:50%;
+  padding-top: 40px;
+}
+
+.pallino{
+  padding: 2.5px;
+  margin-left: 4px;
+  border: solid 2px #0069ff;
+  border-radius: 3px;
+  margin-bottom: 50px;
+}
+
+.pallino:hover{
+  background-color:#0069ff!important;
+}
+
+.sezione5 h2{
+  text-align: center;
+}
+
+.space{
+ padding-top: 40px;
+ font-family: 'montserrat'
+}
+
+.space h5{
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 800px) {
+.sezione5{
   text-align: center;
 }
 }
