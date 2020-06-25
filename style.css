@@ -1,4 +1,8 @@
 /* stilizzazione header */
+*{
+  font-family:"montserrat";
+}
+
 header{
   height: 50px;
   background-color: white!important;
@@ -10,6 +14,7 @@ header{
 .logo img{
   height: 29px;
   width: 172px;
+  margin-top: 5px;
 }
 .menu li{
   display: inline-block;
@@ -18,6 +23,7 @@ header{
   font-size: 14px !important;
   padding-left: 25px;
   padding-top: 7px;
+  margin-top: 5px;
 }
 
 .menu li:hover {
@@ -27,12 +33,13 @@ header{
 
 .signup button{
   border-radius: 5px;
-  font-family: 'Sailec-Bold','Helvetica','san-serif';
   font-size: 15px;
   border-color: #006aff!important;
   color: #006aff;
   background-color: white;
   padding: 5px 10px;
+  margin-top: 1px;
+  font-family: "montserrat"!important;
 }
 
 .signup button:hover{
@@ -49,6 +56,10 @@ header{
    text-align: right;
    margin-top: -22px;
 }
+
+.text-left1{
+  text-align: center!important;
+}
 }
 
 .sezione{
@@ -57,8 +68,8 @@ header{
 
 .text-left1{
   color: white;
-  margin-top: 60px;
-  text-align: center;
+  margin-top: 140px;
+  text-align: left;
 }
 
 .text-left1 h1{
@@ -124,7 +135,8 @@ header{
 
 
 .solutions{
-  text-align: center;
+  margin-left: 50%;
+  transform: translateX(-50%);
   font-size: 20px;
   padding-top: 25px;
   cursor: pointer;
@@ -185,7 +197,7 @@ header{
     font-size: 1.2em;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
 .lista-laterale li{
   display: inline-block!important;
   text-align: center !important;
@@ -208,13 +220,13 @@ header{
 }
 
 .designed{
-  text-align: center;
+  text-align: center!important;
   padding-top: 15px;
 }
 .designed p{
   font-family: 'montserrat';
   font-size: 15px;
-  line-height: 150%;
+
   padding-top: 10px;
 }
 
@@ -250,7 +262,7 @@ header{
   font-weight: bolder;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
 .sezione5{
   text-align: center;
 }
@@ -412,6 +424,7 @@ font-family:"montserrat";
 .lista li{
   text-align: center;
 }
+
 }
 
 .barra-end{
